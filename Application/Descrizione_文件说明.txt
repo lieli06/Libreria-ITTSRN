@@ -1,3 +1,5 @@
+使用Android Studio创建Empty Activity类型的项目
+Usa Android Studio per crea un progetto di tipo Empty Activity
 📌 Come utilizzare questi file per creare la tua applicazione OTP Generator
 📌 关于如何使用这些文件来制作你的 OTP 生成器
 Di seguito sono elencati i file principali che compongono l'applicazione OTP Generator e il loro ruolo all'interno del progetto.
