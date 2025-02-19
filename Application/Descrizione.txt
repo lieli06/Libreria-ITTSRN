@@ -1,1 +1,23 @@
+📌 Come utilizzare questi file per creare la tua applicazione OTP Generator
+📌 关于如何使用这些文件来制作你的 OTP 生成器
+Di seguito sono elencati i file principali che compongono l'applicazione OTP Generator e il loro ruolo all'interno del progetto.
+以下是构成 OTP 生成器应用程序的主要文件及其作用。
 
+📂 app/src/main/res/layout/activity_main.xml
+
+Questo file definisce l'interfaccia utente dell'applicazione. Contiene gli elementi grafici come il campo di input per la chiave segreta, il pulsante per generare l'OTP, il timer e la barra di avanzamento.
+该文件定义了应用程序的用户界面。它包含了 UI 组件，例如密钥输入框、生成 OTP 按钮、倒计时显示和进度条等。
+📂 app/src/main/java/com/example/itts_rn_libreria/MainActivity.java
+
+Questo è il file principale che gestisce la logica dell'app. Contiene il codice per generare il codice OTP in base alla chiave segreta e al tempo corrente, oltre alla gestione della copia negli appunti e dell'aggiornamento automatico ogni minuto.
+这是应用程序的主要逻辑代码文件。它包含了根据密钥和当前时间生成 OTP 的逻辑，同时管理剪贴板复制功能，并确保 OTP 每分钟自动更新。
+📂 app/src/main/AndroidManifest.xml
+
+Il file manifesto dell'app, che definisce i permessi necessari, l'attività principale e altre configurazioni essenziali per il funzionamento dell'applicazione.
+该文件是应用的清单文件，定义了所需权限、主活动（MainActivity）以及其他关键的应用配置。
+📂 app/src/main/ic_launcher-playstore.png
+
+L'icona dell'applicazione utilizzata per la pubblicazione su Google Play Store o come icona principale dell'app.
+这是应用的图标，可用于 Google Play 商店发布或作为应用的主图标。
+⚡ Utilizzando questi file, puoi personalizzare e sviluppare il tuo generatore di OTP, garantendo sicurezza e praticità nel processo di autenticazione.
+⚡ 通过这些文件，你可以自定义和开发你的 OTP 生成器，实现安全便捷的身份验证功能。
